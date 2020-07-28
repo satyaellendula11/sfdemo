@@ -74,9 +74,9 @@
 	
 	var _PropertyGrid2 = _interopRequireDefault(_PropertyGrid);
 	
-	var _feed = __webpack_require__(174);
+	var _feedMock = __webpack_require__(174);
 	
-	var feed = _interopRequireWildcard(_feed);
+	var feed = _interopRequireWildcard(_feedMock);
 	
 	function _interopRequireWildcard(obj) {
 	    if (obj && obj.__esModule) {
@@ -21699,9 +21699,9 @@
 	
 	var _colors2 = _interopRequireDefault(_colors);
 	
-	var _feed = __webpack_require__(174);
+	var _feedMock = __webpack_require__(174);
 	
-	var feed = _interopRequireWildcard(_feed);
+	var feed = _interopRequireWildcard(_feedMock);
 	
 	function _interopRequireWildcard(obj) {
 	    if (obj && obj.__esModule) {
@@ -21759,7 +21759,10 @@
 	        value: function componentDidMount() {
 	            var _this2 = this;
 	
-	            feed.on("interactions", function (event) {
+	            feed.on("interaction", function (event) {
+	                console.log("map");
+	                console.log(_this2.map);
+	                console.log(event);
 	                var property = _this2.props.properties.find(function (property) {
 	                    return property.id == event.propertyId;
 	                });
@@ -21772,7 +21775,7 @@
 	                }).addTo(_this2.map);
 	                setTimeout(function () {
 	                    this.map.removeLayer(circle);
-	                }.bind(_this2), 1000);
+	                }.bind(_this2), 1500);
 	            });
 	        }
 	    }, {
@@ -21820,16 +21823,42 @@
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
-	  value: true
+	    value: true
 	});
-	console.log("initializing socket");
-	var socket = io.connect("wss://dreamhouse-kafka-consumer-ws.herokuapp.com");
-	console.log("connected");
+	var properties = void 0,
+	    callbacks = [];
 	
-	var listen = exports.listen = function listen() {};
+	var getRandomNumber = function getRandomNumber(min, max) {
+	    return Math.floor(Math.random() * (max - min + 1)) + min;
+	};
+	
+	var ping = function ping() {
+	    var timeout = getRandomNumber(200, 3000);
+	    setTimeout(function () {
+	        var index = getRandomNumber(0, properties.length - 1);
+	        var rndm = getRandomNumber(1, 10);
+	        var eventType = void 0;
+	        if (rndm < 6) {
+	            eventType = "view";
+	        } else if (rndm < 8) {
+	            eventType = "favorite";
+	        } else {
+	            eventType = "appointment";
+	        }
+	        callbacks.forEach(function (callback) {
+	            return callback({ propertyId: properties[index].id, eventType: eventType, date: new Date() });
+	        });
+	        ping();
+	    }, timeout);
+	};
 	
 	var on = exports.on = function on(topic, callback) {
-	  return socket.on(topic, callback);
+	    callbacks.push(callback);
+	};
+	
+	var listen = exports.listen = function listen(props) {
+	    properties = props;
+	    ping();
 	};
 
 /***/ },
@@ -21858,9 +21887,9 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _feed = __webpack_require__(174);
+	var _feedMock = __webpack_require__(174);
 	
-	var feed = _interopRequireWildcard(_feed);
+	var feed = _interopRequireWildcard(_feedMock);
 	
 	function _interopRequireWildcard(obj) {
 	    if (obj && obj.__esModule) {
@@ -21911,7 +21940,7 @@
 	    _createClass(PropertyGrid, [{
 	        key: 'componentDidMount',
 	        value: function componentDidMount() {
-	            feed.on("interactions", function (event) {
+	            feed.on("interaction", function (event) {
 	                var properties = this.state.properties;
 	                var property = properties.find(function (property) {
 	                    return property.id == event.propertyId;
@@ -21927,7 +21956,7 @@
 	                            property['new-' + event.eventType] = false;
 	                            self.setState({ properties: properties });
 	                        }
-	                    }, 1000);
+	                    }, 1500);
 	                }
 	            }.bind(this));
 	        }
