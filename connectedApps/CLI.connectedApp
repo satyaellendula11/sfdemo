@@ -11,6 +11,7 @@
         <scopes>Web</scopes>
         <scopes>RefreshToken</scopes>
     </oauthConfig>
+    <permissionSetName>FlexDeploy API Developer</permissionSetName>
     <permissionSetName>Trailblazer Developer</permissionSetName>
     <permissionSetName>Flex Developer</permissionSetName>
     <permissionSetName>FlexDeploy Developer</permissionSetName>
@@ -18,4 +19,5 @@
     <profileName>Authenticated Website</profileName>
     <profileName>System Administrator</profileName>
     <profileName>Authenticated Website</profileName>
+    <profileName>testProfile310</profileName>
 </ConnectedApp>
