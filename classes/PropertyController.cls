@@ -18,6 +18,7 @@ global with sharing class PropertyController {
 					  AND price__c <= :maxPrice
                       ORDER BY price__c LIMIT :pSize OFFSET :offset];
         System.debug(r);
+		System.debug(r.total);
         return r;
     }
 
