@@ -49,7 +49,6 @@ public with sharing class PushPriceChangeNotification {
             req.setBody(body);
             Http http = new Http();
             HttpResponse res;
-			System.debug('execute');
             if (!Test.isRunningTest()) {
 	            req.setEndpoint(url);
 	        	res = http.send(req);
