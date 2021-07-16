@@ -61,7 +61,7 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
-    <description>Flex User for UI.Updated on 04 November 2020</description>
+    <description>Flex User for UI.Updated on 04 November 2020.</description>
     <userLicense>Identity</userLicense>
     <userPermissions>
         <enabled>true</enabled>
