@@ -5,6 +5,6 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>FD_About_Label</shortDescription>
-        <value>FD About</value>
+        <value>FD About:</value>
     </labels>
 </CustomLabels>
