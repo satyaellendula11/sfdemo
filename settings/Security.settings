@@ -3,7 +3,7 @@
     <canUsersGrantLoginAccess>true</canUsersGrantLoginAccess>
     <enableAdminLoginAsAnyUser>false</enableAdminLoginAsAnyUser>
     <enableAuditFieldsInactiveOwner>false</enableAuditFieldsInactiveOwner>
-    <enableAuraSecureEvalPref>false</enableAuraSecureEvalPref>
+    <enableAuraSecureEvalPref>true</enableAuraSecureEvalPref>
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
     <isTLSv12Required xsi:nil="true"/>
     <isTLSv12RequiredCommunities xsi:nil="true"/>
@@ -21,7 +21,7 @@
     </passwordPolicies>
     <sessionSettings>
         <allowUserAuthenticationByCertificate>false</allowUserAuthenticationByCertificate>
-        <canConfirmEmailChangeInLightningCommunities>false</canConfirmEmailChangeInLightningCommunities>
+        <canConfirmEmailChangeInLightningCommunities>true</canConfirmEmailChangeInLightningCommunities>
         <canConfirmIdentityBySmsOnly>true</canConfirmIdentityBySmsOnly>
         <disableTimeoutWarning>false</disableTimeoutWarning>
         <enableCSPOnEmail>true</enableCSPOnEmail>
@@ -50,7 +50,7 @@
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
-        <lockerServiceCSP>false</lockerServiceCSP>
+        <lockerServiceCSP>true</lockerServiceCSP>
         <redirectionWarning>false</redirectionWarning>
         <referrerPolicy>true</referrerPolicy>
         <requireHttpOnly>false</requireHttpOnly>

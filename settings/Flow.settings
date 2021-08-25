@@ -7,13 +7,13 @@
     <enableFlowCustomPropertyEditor>false</enableFlowCustomPropertyEditor>
     <enableFlowDeployAsActiveEnabled>false</enableFlowDeployAsActiveEnabled>
     <enableFlowFieldFilterEnabled>true</enableFlowFieldFilterEnabled>
-    <enableFlowFormulasFixEnabled>false</enableFlowFormulasFixEnabled>
+    <enableFlowFormulasFixEnabled>true</enableFlowFormulasFixEnabled>
     <enableFlowInterviewSharingEnabled>true</enableFlowInterviewSharingEnabled>
     <enableFlowNullPreviousValueFix>false</enableFlowNullPreviousValueFix>
     <enableFlowPauseEnabled>false</enableFlowPauseEnabled>
     <enableFlowUseApexExceptionEmail>false</enableFlowUseApexExceptionEmail>
     <enableLightningRuntimeEnabled>false</enableLightningRuntimeEnabled>
-    <isAccessToInvokedApexRequired>false</isAccessToInvokedApexRequired>
+    <isAccessToInvokedApexRequired>true</isAccessToInvokedApexRequired>
     <isApexPluginAccessModifierRespected>true</isApexPluginAccessModifierRespected>
     <isEnhancedFlowListViewVisible>true</isEnhancedFlowListViewVisible>
     <isFlowApexContextRetired>false</isFlowApexContextRetired>
