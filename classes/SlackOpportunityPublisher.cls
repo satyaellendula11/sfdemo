@@ -1,7 +1,7 @@
 public with sharing class SlackOpportunityPublisher {
     
     private static final String slackURL = Dreamhouse_Settings__c.getOrgDefaults().Slack_Opportunity_Webhook_URL__c;
-    
+    //stest
     @InvocableMethod(label='Post to Slack')
     public static void postToSlack(List<Id> opportunityId) {
         Id oppId = opportunityId[0]; // If bulk, only post first to avoid overloading Slack channel
