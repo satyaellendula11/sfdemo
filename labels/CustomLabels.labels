@@ -8,6 +8,13 @@
         <value>FD About:</value>
     </labels>
     <labels>
+        <fullName>FD_ID</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FD ID</shortDescription>
+        <value>test custom label</value>
+    </labels>
+    <labels>
         <fullName>FD_Version_Label</fullName>
         <language>en_US</language>
         <protected>true</protected>
