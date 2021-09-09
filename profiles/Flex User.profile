@@ -165,6 +165,10 @@
         <apexClass>TestClass1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TestClass2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <description>Flex User for UI. Updated on 8th Aug 2021.</description>
     <fieldPermissions>

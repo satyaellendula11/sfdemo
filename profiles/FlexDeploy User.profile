@@ -165,6 +165,10 @@
         <apexClass>TestClass1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TestClass2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <description>Flex Deploy user updated on 05 November 2020</description>
     <fieldPermissions>

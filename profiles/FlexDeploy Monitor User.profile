@@ -165,6 +165,10 @@
         <apexClass>TestClass1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TestClass2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <description>Monitoring users</description>
     <fieldPermissions>
