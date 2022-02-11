@@ -227,6 +227,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -266,6 +267,12 @@
     <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramLevelName</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelProgramName</fullName>
     </fields>
     <fields>
         <fullName>CleanStatus</fullName>
@@ -320,6 +327,13 @@
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>IsCustomerPortal</fullName>
+    </fields>
+    <fields>
+        <fullName>IsPartner</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
@@ -448,6 +462,9 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Tier</fullName>
+    </fields>
+    <fields>
         <fullName>Tradestyle</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -491,6 +508,59 @@
     <fields>
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>custom_pick_list_field__c</fullName>
+        <externalId>false</externalId>
+        <label>custom pick list field</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>CustomerPriority__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>val77</fullName>
+                    <default>false</default>
+                    <label>val77</label>
+                </value>
+                <value>
+                    <fullName>val2</fullName>
+                    <default>false</default>
+                    <label>val2</label>
+                </value>
+                <value>
+                    <fullName>val3</fullName>
+                    <default>false</default>
+                    <label>val3</label>
+                </value>
+                <value>
+                    <fullName>val4</fullName>
+                    <default>false</default>
+                    <label>val4</label>
+                </value>
+                <value>
+                    <fullName>val1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>val1</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>High</controllingFieldValue>
+                <valueName>val2</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Low</controllingFieldValue>
+                <valueName>val3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Medium</controllingFieldValue>
+                <valueName>val4</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>

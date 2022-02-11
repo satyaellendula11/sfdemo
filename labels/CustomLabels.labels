@@ -5,13 +5,13 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>FD_About_Label</shortDescription>
-        <value>FD About:</value>
+        <value>FD About label</value>
     </labels>
     <labels>
-        <fullName>FD_Version_Label</fullName>
+        <fullName>FD_Version</fullName>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>FD_Version_Label</shortDescription>
+        <shortDescription>FD_Version</shortDescription>
         <value>FD Version</value>
     </labels>
 </CustomLabels>
