@@ -12,6 +12,11 @@
             <start>223.196.162.112</start>
         </ipRanges>
         <ipRanges>
+            <description>test</description>
+            <end>192.168.55.104</end>
+            <start>192.168.55.104</start>
+        </ipRanges>
+        <ipRanges>
             <end>192.168.0.200</end>
             <start>192.168.0.100</start>
         </ipRanges>
