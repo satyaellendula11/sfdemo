@@ -7,6 +7,11 @@
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
     <networkAccess>
         <ipRanges>
+            <description>gowtham</description>
+            <end>223.196.162.112</end>
+            <start>223.196.162.112</start>
+        </ipRanges>
+        <ipRanges>
             <end>192.168.0.200</end>
             <start>192.168.0.100</start>
         </ipRanges>
