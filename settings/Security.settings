@@ -7,30 +7,6 @@
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
     <networkAccess>
         <ipRanges>
-            <end>223.196.167.80</end>
-            <start>223.196.167.80</start>
-        </ipRanges>
-        <ipRanges>
-            <description>gowtham</description>
-            <end>223.196.162.112</end>
-            <start>223.196.162.112</start>
-        </ipRanges>
-        <ipRanges>
-            <description>test3</description>
-            <end>223.196.161.95</end>
-            <start>223.196.161.95</start>
-        </ipRanges>
-        <ipRanges>
-            <description>test1</description>
-            <end>223.196.160.64</end>
-            <start>223.196.160.64</start>
-        </ipRanges>
-        <ipRanges>
-            <description>test</description>
-            <end>192.168.55.104</end>
-            <start>192.168.55.104</start>
-        </ipRanges>
-        <ipRanges>
             <end>192.168.0.200</end>
             <start>192.168.0.100</start>
         </ipRanges>
