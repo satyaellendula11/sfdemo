@@ -3,5 +3,14 @@
     <assignmentRule>
         <fullName>test assignment rules name changed</fullName>
         <active>true</active>
+        <ruleEntry>
+            <assignedTo>flexagon8@flexagon.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.City</field>
+                <operation>equals</operation>
+                <value>delhi</value>
+            </criteriaItems>
+        </ruleEntry>
     </assignmentRule>
 </AssignmentRules>
