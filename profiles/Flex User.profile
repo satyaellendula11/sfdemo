@@ -8,7 +8,7 @@
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
@@ -20205,6 +20205,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <description>Demo user</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
