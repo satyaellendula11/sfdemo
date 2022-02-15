@@ -17,8 +17,8 @@
         <label>Cold</label>
     </standardValue>
     <standardValue>
-        <fullName>good</fullName>
+        <fullName>Awesome</fullName>
         <default>false</default>
-        <label>good</label>
+        <label>Awesome</label>
     </standardValue>
 </StandardValueSet>
