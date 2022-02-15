@@ -3,6 +3,15 @@
     <assignmentRule>
         <fullName>assignment rule 2</fullName>
         <active>true</active>
+        <ruleEntry>
+            <assignedTo>flexagon8@flexagon.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Country</field>
+                <operation>equals</operation>
+                <value>India</value>
+            </criteriaItems>
+        </ruleEntry>
     </assignmentRule>
     <assignmentRule>
         <fullName>test assignment rules name changed</fullName>
