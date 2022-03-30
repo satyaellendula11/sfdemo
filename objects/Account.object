@@ -655,6 +655,7 @@
         <columns>ACCOUNT.PHONE1</columns>
         <columns>ACCOUNT.TYPE</columns>
         <columns>CORE.USERS.ALIAS</columns>
+        <columns>ACCOUNT.ACCOUNT_NUMBER</columns>
         <filterScope>Everything</filterScope>
         <label>custom list view</label>
     </listViews>
