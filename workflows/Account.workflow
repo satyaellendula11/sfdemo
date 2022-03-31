@@ -11,13 +11,39 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SupportCaseResponse</template>
     </alerts>
+    <fieldUpdates>
+        <fullName>accont_field_update</fullName>
+        <field>NaicsDesc</field>
+        <name>accont field update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>second_field_update</fullName>
+        <field>Description</field>
+        <name>second field update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
     <rules>
         <fullName>AccountRule</fullName>
         <actions>
             <name>EmailRama</name>
             <type>Alert</type>
         </actions>
-        <active>false</active>
+        <actions>
+            <name>accont_field_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>second_field_update</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
         <criteriaItems>
             <field>Account.ShippingCountry</field>
             <operation>equals</operation>
