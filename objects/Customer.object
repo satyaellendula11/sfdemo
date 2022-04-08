@@ -128,7 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>CustomerStatusType</fullName>
     </fields>
@@ -156,5 +155,5 @@
         <customTabListAdditionalFields>TotalLifeTimeValue</customTabListAdditionalFields>
         <searchResultsAdditionalFields>TotalLifeTimeValue</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

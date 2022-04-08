@@ -45,16 +45,28 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Trailblazer</name>
+        <name>DreamHouse</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningInstrumentation</name>
+        <name>Trailblazer</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>standard__SalesforceCMS</name>
         <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_96tsrnrbxisqiayajsdw</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>API</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CLI</name>
+        <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
         <name>standard__AllTabSet</name>
@@ -65,11 +77,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>FD</name>
+        <name>DependencyIntegrationTest</name>
         <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>demoflexagon08</name>
-        <type>Network</type>
     </appMenuItems>
 </AppMenu>

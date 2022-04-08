@@ -325,7 +325,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
@@ -362,6 +361,13 @@
     <fields>
         <fullName>Email</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>FD_Version__c</fullName>
+        <description>test</description>
+        <externalId>false</externalId>
+        <label>FD_Version</label>
+        <type>AutoNumber</type>
     </fields>
     <fields>
         <fullName>Fax</fullName>

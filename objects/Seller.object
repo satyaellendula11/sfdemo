@@ -128,7 +128,6 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>ActiveFromDate</fullName>
     </fields>
@@ -164,5 +163,5 @@
         <searchResultsAdditionalFields>ActiveToDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SalesAmount</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
