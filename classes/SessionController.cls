@@ -1,7 +1,8 @@
 public class SessionController {
-		// get session id
+
     @AuraEnabled
     public static String getSessionId() {
+        //comment
         return UserInfo.getSessionId();
     }
     

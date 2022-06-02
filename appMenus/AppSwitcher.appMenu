@@ -64,4 +64,20 @@
         <name>standard__Commerce</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>FD</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>demoflexagon08</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DependencyIntegrationTest</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>CustomerService Portal</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>

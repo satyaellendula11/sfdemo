@@ -114,6 +114,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Comments</fullName>
     </fields>
@@ -134,6 +135,11 @@
     <fields>
         <fullName>Status</fullName>
     </fields>
+    <listViews>
+        <fullName>PaymentGateway</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <listViews>
         <fullName>PaymentGateway</fullName>
         <filterScope>Everything</filterScope>
