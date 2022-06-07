@@ -4,16 +4,13 @@
     <standardValue>
         <fullName>Draft</fullName>
         <default>true</default>
-        <label>Draft</label>
     </standardValue>
     <standardValue>
         <fullName>In Approval Process</fullName>
         <default>false</default>
-        <label>In Approval Process</label>
     </standardValue>
     <standardValue>
         <fullName>Activated</fullName>
         <default>false</default>
-        <label>Activated</label>
     </standardValue>
 </StandardValueSet>

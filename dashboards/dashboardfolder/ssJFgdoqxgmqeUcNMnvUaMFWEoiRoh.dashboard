@@ -3,10 +3,6 @@
     <backgroundEndColor>#FFFFFF</backgroundEndColor>
     <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
-    <chartTheme>light</chartTheme>
-    <colorPalette>unity</colorPalette>
-    <dashboardChartTheme>light</dashboardChartTheme>
-    <dashboardColorPalette>unity</dashboardColorPalette>
     <dashboardGridLayout>
         <dashboardGridComponents>
             <colSpan>4</colSpan>
@@ -19,19 +15,12 @@
                     <column>RowCount</column>
                 </chartSummary>
                 <componentType>Column</componentType>
-                <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
                 <drillToDetailEnabled>false</drillToDetailEnabled>
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>TYPE</groupingColumn>
-                <groupingSortProperties>
-                    <groupingSorts>
-                        <groupingLevel>g1</groupingLevel>
-                        <sortOrder>a</sortOrder>
-                    </groupingSorts>
-                </groupingSortProperties>
                 <header>New Opportunities Report</header>
                 <legendPosition>Bottom</legendPosition>
                 <report>testreportfolder/New_Opportunities_Report_Xw0</report>

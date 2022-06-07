@@ -4,11 +4,9 @@
     <standardValue>
         <fullName>Phone Support</fullName>
         <default>true</default>
-        <label>Phone Support</label>
     </standardValue>
     <standardValue>
         <fullName>Web Support</fullName>
         <default>false</default>
-        <label>Web Support</label>
     </standardValue>
 </StandardValueSet>

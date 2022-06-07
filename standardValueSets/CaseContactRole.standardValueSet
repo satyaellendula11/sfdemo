@@ -4,21 +4,17 @@
     <standardValue>
         <fullName>Technical Contact</fullName>
         <default>false</default>
-        <label>Technical Contact</label>
     </standardValue>
     <standardValue>
         <fullName>Business Contact</fullName>
         <default>false</default>
-        <label>Business Contact</label>
     </standardValue>
     <standardValue>
         <fullName>Decision Maker</fullName>
         <default>false</default>
-        <label>Decision Maker</label>
     </standardValue>
     <standardValue>
         <fullName>Other</fullName>
         <default>false</default>
-        <label>Other</label>
     </standardValue>
 </StandardValueSet>

@@ -4,19 +4,16 @@
     <standardValue>
         <fullName>Draft</fullName>
         <default>true</default>
-        <label>Draft</label>
         <reviewed>false</reviewed>
     </standardValue>
     <standardValue>
         <fullName>Reviewed</fullName>
         <default>false</default>
-        <label>Reviewed</label>
         <reviewed>true</reviewed>
     </standardValue>
     <standardValue>
         <fullName>Duplicate</fullName>
         <default>false</default>
-        <label>Duplicate</label>
         <reviewed>false</reviewed>
     </standardValue>
 </StandardValueSet>

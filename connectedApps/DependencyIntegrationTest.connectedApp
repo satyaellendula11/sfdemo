@@ -5,17 +5,9 @@
     <oauthConfig>
         <callbackUrl>https://flexagon8-dev-ed.lightning.force.com</callbackUrl>
         <consumerKey>3MVG9i1HRpGLXp.oMInIjgiXLeIyqGbXzVTus00TOkydCklluAuQJhH7au2HfJFETd2sr0FppB9kwwBG9kqb4</consumerKey>
-        <isAdminApproved>false</isAdminApproved>
-        <isConsumerSecretOptional>false</isConsumerSecretOptional>
-        <isIntrospectAllTokens>false</isIntrospectAllTokens>
-        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
         <scopes>Api</scopes>
         <scopes>Web</scopes>
         <scopes>RefreshToken</scopes>
         <scopes>OpenID</scopes>
     </oauthConfig>
-    <oauthPolicy>
-        <ipRelaxation>BYPASS</ipRelaxation>
-        <refreshTokenPolicy>infinite</refreshTokenPolicy>
-    </oauthPolicy>
 </ConnectedApp>

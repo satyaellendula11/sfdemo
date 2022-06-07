@@ -22651,10 +22651,6 @@
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>test_flow</flow>
-    </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
         <recordType>Account.seller</recordType>

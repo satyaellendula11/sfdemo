@@ -4,21 +4,17 @@
     <standardValue>
         <fullName>Public</fullName>
         <default>false</default>
-        <label>Public</label>
     </standardValue>
     <standardValue>
         <fullName>Private</fullName>
         <default>false</default>
-        <label>Private</label>
     </standardValue>
     <standardValue>
         <fullName>Subsidiary</fullName>
         <default>false</default>
-        <label>Subsidiary</label>
     </standardValue>
     <standardValue>
         <fullName>Other</fullName>
         <default>false</default>
-        <label>Other</label>
     </standardValue>
 </StandardValueSet>

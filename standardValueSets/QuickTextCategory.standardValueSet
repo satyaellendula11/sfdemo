@@ -4,16 +4,13 @@
     <standardValue>
         <fullName>Greetings</fullName>
         <default>true</default>
-        <label>Greetings</label>
     </standardValue>
     <standardValue>
         <fullName>FAQ</fullName>
         <default>false</default>
-        <label>FAQ</label>
     </standardValue>
     <standardValue>
         <fullName>Closings</fullName>
         <default>false</default>
-        <label>Closings</label>
     </standardValue>
 </StandardValueSet>
