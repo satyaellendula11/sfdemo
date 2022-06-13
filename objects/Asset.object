@@ -37,6 +37,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Address</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>AssetLevel</fullName>
         <trackHistory>false</trackHistory>
     </fields>

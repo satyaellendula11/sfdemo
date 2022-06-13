@@ -22487,6 +22487,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>ServiceContract.AdditionalDiscount</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>ServiceContract.ApprovalStatus</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -22870,7 +22875,7 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>standard-CreditMemo</tab>
+        <tab>standard-ContractLineItem</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
@@ -22930,11 +22935,11 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>standard-Invoice</tab>
+        <tab>standard-Lead</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>standard-Lead</tab>
+        <tab>standard-LearningItem</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
@@ -22995,10 +23000,6 @@
     </tabSettings>
     <tabSettings>
         <tab>standard-PaymentGateway</tab>
-        <visibility>None</visibility>
-    </tabSettings>
-    <tabSettings>
-        <tab>standard-PaymentLineInvoice</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>

@@ -13,6 +13,9 @@
         <fullName>CompanyName</fullName>
     </fields>
     <fields>
+        <fullName>IsAutoPayEnabled</fullName>
+    </fields>
+    <fields>
         <fullName>IsDeleted</fullName>
     </fields>
     <fields>
