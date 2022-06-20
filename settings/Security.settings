@@ -36,11 +36,6 @@
             <start>182.50.76.0</start>
         </ipRanges>
         <ipRanges>
-            <description>Utlwt01</description>
-            <end>172.16.0.10</end>
-            <start>172.16.0.10</start>
-        </ipRanges>
-        <ipRanges>
             <end>163.79.255.255</end>
             <start>163.79.128.0</start>
         </ipRanges>
@@ -178,16 +173,6 @@
         <ipRanges>
             <end>34.197.58.108</end>
             <start>34.197.58.108</start>
-        </ipRanges>
-        <ipRanges>
-            <description>Gowtham</description>
-            <end>27.116.20.45</end>
-            <start>27.116.20.45</start>
-        </ipRanges>
-        <ipRanges>
-            <description>Utlwt01- 1</description>
-            <end>20.46.248.26</end>
-            <start>20.46.248.26</start>
         </ipRanges>
         <ipRanges>
             <end>18.211.105.61</end>
