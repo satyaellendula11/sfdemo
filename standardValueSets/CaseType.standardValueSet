@@ -4,21 +4,26 @@
     <standardValue>
         <fullName>Mechanical</fullName>
         <default>false</default>
+        <label>Mechanical</label>
     </standardValue>
     <standardValue>
         <fullName>Electrical</fullName>
         <default>false</default>
+        <label>Electrical</label>
     </standardValue>
     <standardValue>
         <fullName>Electronic</fullName>
         <default>false</default>
+        <label>Electronic</label>
     </standardValue>
     <standardValue>
         <fullName>Structural</fullName>
         <default>false</default>
+        <label>Structural</label>
     </standardValue>
     <standardValue>
         <fullName>Other</fullName>
         <default>false</default>
+        <label>Other</label>
     </standardValue>
 </StandardValueSet>

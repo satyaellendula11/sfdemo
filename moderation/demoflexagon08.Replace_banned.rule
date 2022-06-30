@@ -29,5 +29,6 @@
         <keywordList>demoflexagon08.Banned</keywordList>
     </entitiesAndFields>
     <masterLabel>Replace banned keywords with asterisks</masterLabel>
+    <type>Content</type>
     <userMessage>You can&apos;t use %BLOCKED_KEYWORD% or other inappropriate words in this community. Review your content and try again.</userMessage>
 </ModerationRule>

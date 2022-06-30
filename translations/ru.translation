@@ -20,6 +20,14 @@
         <label><!-- FD_Version_Label --></label>
         <name>FD_Version_Label</name>
     </customLabels>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <name>level1</name>
+            </screens>
+        </flows>
+        <fullName>test_flow</fullName>
+    </flowDefinitions>
     <quickActions>
         <label><!-- Guest Community Case --></label>
         <name>GuestCommunityCase</name>

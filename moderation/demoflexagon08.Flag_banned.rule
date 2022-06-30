@@ -29,5 +29,7 @@
         <keywordList>demoflexagon08.Banned</keywordList>
     </entitiesAndFields>
     <masterLabel>Flag posts or comments containing banned keywords</masterLabel>
+    <type>Content</type>
+    <userCriteria>demoflexagon08.Customer_Members</userCriteria>
     <userMessage>You can&apos;t use %BLOCKED_KEYWORD% or other inappropriate words in this community. Review your content and try again.</userMessage>
 </ModerationRule>

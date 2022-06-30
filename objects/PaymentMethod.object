@@ -13,15 +13,6 @@
         <fullName>CompanyName</fullName>
     </fields>
     <fields>
-        <fullName>IsAutoPayEnabled</fullName>
-    </fields>
-    <fields>
-        <fullName>IsDeleted</fullName>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-    </fields>
-    <fields>
         <fullName>NickName</fullName>
     </fields>
     <fields>

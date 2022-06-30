@@ -4,17 +4,21 @@
     <standardValue>
         <fullName>Spring</fullName>
         <default>true</default>
+        <label>Spring</label>
     </standardValue>
     <standardValue>
         <fullName>Summer</fullName>
         <default>false</default>
+        <label>Summer</label>
     </standardValue>
     <standardValue>
         <fullName>Fall</fullName>
         <default>false</default>
+        <label>Fall</label>
     </standardValue>
     <standardValue>
         <fullName>Winter</fullName>
         <default>false</default>
+        <label>Winter</label>
     </standardValue>
 </StandardValueSet>
