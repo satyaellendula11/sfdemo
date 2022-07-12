@@ -201,6 +201,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>SitePageControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteRegisterController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -16666,6 +16670,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TestDemoClass199</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestDemoClass1Test</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
