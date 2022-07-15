@@ -43,7 +43,7 @@
             <name>second_field_update</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Account.ShippingCountry</field>
             <operation>equals</operation>
