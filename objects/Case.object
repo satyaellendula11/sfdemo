@@ -455,7 +455,7 @@
     </fields>
     <fields>
         <fullName>Reason</fullName>
-        <inlineHelpText>Please add a reason for the case</inlineHelpText>
+        <inlineHelpText>Please add a reason for the case.</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
