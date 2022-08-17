@@ -328,6 +328,7 @@
     </fields>
     <fields>
         <fullName>Origin</fullName>
+        <inlineHelpText>Please add case origin</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
