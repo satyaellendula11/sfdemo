@@ -24,7 +24,7 @@
     </assignmentRule>
     <assignmentRule>
         <fullName>Standard</fullName>
-        <active>true</active>
+        <active>false</active>
         <ruleEntry>
             <assignedTo>satya@dev.source</assignedTo>
             <assignedToType>User</assignedToType>
