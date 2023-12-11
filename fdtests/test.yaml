@@ -1,0 +1,31 @@
+testName: Salesforce
+description: Generated Cucumber Test configuration
+# Optionally apply filters to control when this test executes
+# The filter below would only execute this test if the deploy target environment code is DEV
+# filters:
+#  - type: env
+#    value: DEV
+workflow:
+  name: Salesforce-runApexTest
+  inputs:
+     # (Optional) Comma-separated list of Apex test class names to run.
+    - code: APEX_TEST_CLASSNAMES
+      groovy: false
+      value: 
+     # (Optional) Comma-separated list of Apex test suite names to run.
+    - code: APEX_TEST_SUITENAMES
+      groovy: false
+      value: 
+     # (Optional) Comma-separated list of Apex test class names or IDs and test methods, if applicable, to run.
+    - code: APEX_TESTNAMES
+      groovy: false
+      value: 
+     # (Optional) The permissible values for the Test Level to run are RunLocalTests, RunAllTestsInOrg, RunSpecifiedTests.
+    - code: APEX_TEST_LEVEL
+      groovy: false
+      value: 
+     # (Optional) Optional Test Instance to execute the test(s) on. If not specified, execution will occur on the deploy/target instance.
+    - code: TEST_INSTANCE
+      groovy: false
+      value: 
+  
