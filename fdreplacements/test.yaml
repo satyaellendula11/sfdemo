@@ -1,0 +1,6 @@
+---
+fileName: '*.layout'
+replacements: 
+  - stringToReplace: false
+    replaceWithRandomCSV: true,true1,true2
+    replaceWithEnv: ONE
