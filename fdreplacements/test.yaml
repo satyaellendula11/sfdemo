@@ -1,3 +1,30 @@
+# To get started type 'replacement-' and select the template you want to use.
+# YAML uses backslash as its escape character and eats the first layer of quote marks.
+# Use Double Quotes around values containing '$', '*', or '{'.
+
+# To reference a FlexDeploy property, use the property name directly. No need to prefix with $. Example FD_ENVIRONMENT_CODE.
+
+# Sample replacement
+# ---
+# fileName: "*.txt"
+# replacements:
+#  - stringToReplace: "my static string"
+#    replaceWithString: "my replaced string"
+#    replaceWhenEnv:
+#      - env: "FD_ENVIRONMENT_CODE"
+#        value: "DEV"
+---
+fileName: '*.xml'
+replacements: 
+  - stringToReplace:  '<apiVersion>57.0</apiVersion>'
+    replaceWithString: '<apiVersion>50.0</apiVersion>'
+    replaceWhenEnv: [DEV,QA,PROD]
+---
+fileName: 'package.xml'
+replacements: 
+  - stringToReplace:  '<apiVersion>56.0</apiVersion>'
+    replaceWithRandomCSV: C:\Users\developer\Downloads\RandomCsvFile.csv
+    replaceWhenEnv: [DEV,QA,PROD]
 ---
 fileName: '*.layout'
 replacements: 
