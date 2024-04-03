@@ -6,7 +6,7 @@
     </iframeWhiteListUrls>
     <iframeWhiteListUrls>
       <context>VisualforcePages</context>
-      <url>example2.com</url>
+      <url>example.com</url>
     </iframeWhiteListUrls>
 </IframeWhiteListUrlSettings>
 
