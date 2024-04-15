@@ -325,6 +325,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
@@ -363,15 +364,13 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>FD_Version__c</fullName>
-        <description>test</description>
-        <externalId>false</externalId>
-        <label>FD_Version</label>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>GenderIdentity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
@@ -473,6 +472,11 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Pronouns</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>ReportsToId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
@@ -495,6 +499,15 @@
             <value>THIS_MONTH</value>
         </filters>
         <label>Birthdays This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>BulkMessageContacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.PHONE3</columns>
+        <columns>CONTACT.LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <label>Bulk_SMS_Contacts</label>
     </listViews>
     <listViews>
         <fullName>MyContacts</fullName>

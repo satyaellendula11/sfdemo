@@ -3,10 +3,12 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Commerce</label>
     <navType>Console</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-Pricebook2</tabs>
+    <tabs>standard-PromotionsWorkspace</tabs>
+    <tabs>standard-ProductCatalog</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
@@ -23,7 +25,10 @@
             <tab>standard-Order</tab>
         </mappings>
         <mappings>
-            <tab>standard-Pricebook2</tab>
+            <tab>standard-ProductCatalog</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-PromotionsWorkspace</tab>
         </mappings>
         <mappings>
             <tab>standard-home</tab>

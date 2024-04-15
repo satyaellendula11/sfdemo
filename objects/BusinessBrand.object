@@ -128,11 +128,16 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Name</fullName>
     </fields>
     <fields>
         <fullName>OrgId</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ParentId</fullName>
