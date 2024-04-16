@@ -7,8 +7,12 @@
         <consumerKey>3MVG95nWQGdmAiEq.Ayycs.nbcIvONFJsPHBwh3Ww6.IU4yhUi0vBgP7kiqDbkjyPqOdI9OhakNDG17kGsJse</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
         <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
         <scopes>Api</scopes>
         <scopes>Web</scopes>

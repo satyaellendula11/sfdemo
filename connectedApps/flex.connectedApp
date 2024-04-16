@@ -8,8 +8,12 @@
         <consumerKey>3MVG95nWQGdmAiEq.Ayycs.nbcAbZhv6cJon1W17V5HXdPlO4w2Wrgms3rCsOv2j7l04roEJGtexkNCLej9wM</consumerKey>
         <isAdminApproved>true</isAdminApproved>
         <isClientCredentialEnabled>true</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
         <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
         <oauthClientCredentialUser>satya@dev.source</oauthClientCredentialUser>
         <scopes>Api</scopes>
