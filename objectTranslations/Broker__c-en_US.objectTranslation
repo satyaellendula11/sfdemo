@@ -33,4 +33,8 @@
         <name>Title__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- User must not be active. --></errorMessage>
+        <name>activeError</name>
+    </validationRules>
 </CustomObjectTranslation>

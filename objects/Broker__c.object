@@ -230,5 +230,11 @@
     <pluralLabel>Brokers</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>activeError</fullName>
+        <active>true</active>
+        <errorConditionFormula>$User.IsActive</errorConditionFormula>
+        <errorMessage>User must not be active.</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
