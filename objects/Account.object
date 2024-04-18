@@ -548,7 +548,7 @@
          </values>
          <values>
             <fullName>Partner Referral</fullName>
-            <default>false</default>
+            <default>true</default>
          </values>
          <values>
             <fullName>Purchased List</fullName>
@@ -556,7 +556,7 @@
          </values>
          <values>
             <fullName>Web</fullName>
-            <default>true</default>
+            <default>false</default>
          </values>
       </picklistValues>
       <picklistValues>
