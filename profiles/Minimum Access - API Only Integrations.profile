@@ -3000,6 +3000,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>SFDX_Meta__c.Components__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SFDX_Meta__c.Source_Format__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Seller.ActiveFromDate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3979,6 +3989,14 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-Account %28Marketing%29 Layout</layout>
+        <recordType>Account.Copy_CurrentAccount</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+        <recordType>Account.other</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AssociatedLocation-Associated Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3986,6 +4004,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Broker__c-Broker Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CollaborationGroup-Group Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CspTrustedSite-Trusted URL Layout</layout>
@@ -4011,10 +4032,26 @@
     <layoutAssignments>
         <layout>Property__c-Property Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>SFDX_Meta__c-SFDX Meta Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SFDX_Meta__c-SFDX Meta Layout</layout>
+        <recordType>SFDX_Meta__c.Metadata_API</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SFDX_Meta__c-SFDX Meta Layout</layout>
+        <recordType>SFDX_Meta__c.Salesforce_DX</recordType>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>DemoPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Copy_CurrentAccount</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.Current_Account</recordType>
@@ -4027,11 +4064,34 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Account.other</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>SFDX_Meta__c.Metadata_API</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>SFDX_Meta__c.Salesforce_DX</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>SFDX_Meta__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ActiveScratchOrg</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4231,6 +4291,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-NamespaceRegistry</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-OperatingHours</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -4308,6 +4372,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Scorecard</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ScratchOrgInfo</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
