@@ -13,8 +13,24 @@
         <name>SFDX_FS</name>
     </fieldSets>
     <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Components --></label>
         <name>Components__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
         <picklistValues>
             <masterLabel>meta.mdapi</masterLabel>
             <translation><!-- meta.mdapi --></translation>
@@ -71,6 +87,10 @@
         <label><!-- Salesforce DX --></label>
         <name>Salesforce_DX</name>
     </recordTypes>
+    <sharingReasons>
+        <label><!-- SFDX ASR --></label>
+        <name>SFDX_ASR</name>
+    </sharingReasons>
     <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- Created Date Validation Rule --></errorMessage>

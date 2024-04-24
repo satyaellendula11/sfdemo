@@ -181,6 +181,31 @@
         <label>SFDX FS</label>
     </fieldSets>
     <fields>
+        <fullName>Client__c</fullName>
+        <externalId>false</externalId>
+        <label>Client</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>USA</fullName>
+                    <default>false</default>
+                    <label>USA</label>
+                </value>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Components__c</fullName>
         <externalId>false</externalId>
         <label>Components</label>
@@ -212,6 +237,11 @@
                     <fullName>object.mdapi</fullName>
                     <default>false</default>
                     <label>object.mdapi</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
                 </value>
             </valueSetDefinition>
             <valueSettings>
@@ -282,7 +312,22 @@
         <active>true</active>
         <label>Metadata API</label>
         <picklistValues>
+            <picklist>Client__c</picklist>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>USA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Components__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>meta%2Emdapi</fullName>
                 <default>false</default>
@@ -317,7 +362,22 @@
         <active>true</active>
         <label>Salesforce DX</label>
         <picklistValues>
+            <picklist>Client__c</picklist>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>USA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Components__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>meta%2Emdapi</fullName>
                 <default>false</default>
@@ -358,6 +418,10 @@
         <searchResultsAdditionalFields>Source_Format__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <sharingReasons>
+        <fullName>SFDX_ASR__c</fullName>
+        <label>SFDX ASR</label>
+    </sharingReasons>
     <validationRules>
         <fullName>VL_Test</fullName>
         <active>true</active>

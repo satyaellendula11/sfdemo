@@ -511,6 +511,17 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>test__c</fullName>
+        <externalId>false</externalId>
+        <label>test</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
@@ -1700,7 +1711,14 @@
         <active>true</active>
         <errorConditionFormula>ISPICKVAl(AccountSource,&apos;Other&apos;)</errorConditionFormula>
         <errorDisplayField>AccountSource</errorDisplayField>
-        <errorMessage>Please Select Account Source</errorMessage>
+        <errorMessage>Please Select Account Source.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Account_Source_other</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAl(AccountSource,&apos;Other1&apos;)</errorConditionFormula>
+        <errorDisplayField>AccountSource</errorDisplayField>
+        <errorMessage>Please Select Account Source.</errorMessage>
     </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
